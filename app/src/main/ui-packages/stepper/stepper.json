@@ -1,0 +1,622 @@
+{
+  "name": "stepper",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "337:519",
+    "version": "3180979874",
+    "component-id": "07ee470b861133eed6ec5138d9b749a4607169f5"
+  },
+  "default": "Step=1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "1"
+      },
+      {
+        "type": "vector",
+        "id": "2"
+      },
+      {
+        "type": "vector",
+        "id": "3"
+      },
+      {
+        "type": "vector",
+        "id": "4"
+      }
+    ],
+    "modes": {
+      "Step=1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "1.svg"
+          },
+          {
+            "id": "2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "2.svg"
+          },
+          {
+            "id": "3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "3.svg"
+          },
+          {
+            "id": "4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "4.svg"
+          }
+        ]
+      },
+      "Step=Step8": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "1",
+              "2",
+              "3"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "1_1.svg"
+          },
+          {
+            "id": "2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "2_1.svg"
+          },
+          {
+            "id": "3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "3_1.svg"
+          }
+        ]
+      },
+      "Step=2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "1_2.svg"
+          },
+          {
+            "id": "2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "2_2.svg"
+          },
+          {
+            "id": "3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "3_2.svg"
+          },
+          {
+            "id": "4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "4_1.svg"
+          }
+        ]
+      },
+      "Step=Step7": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "1",
+              "2",
+              "3"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "1_3.svg"
+          },
+          {
+            "id": "2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "2_3.svg"
+          },
+          {
+            "id": "3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "3_3.svg"
+          }
+        ]
+      },
+      "Step=3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "1_4.svg"
+          },
+          {
+            "id": "2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "2_4.svg"
+          },
+          {
+            "id": "3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "3_4.svg"
+          },
+          {
+            "id": "4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "4_2.svg"
+          }
+        ]
+      },
+      "Step=Step6": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "1",
+              "2",
+              "3"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "1_5.svg"
+          },
+          {
+            "id": "2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "2_5.svg"
+          },
+          {
+            "id": "3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "3_5.svg"
+          }
+        ]
+      },
+      "Step=4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "1_6.svg"
+          },
+          {
+            "id": "2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "2_6.svg"
+          },
+          {
+            "id": "3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "3_6.svg"
+          },
+          {
+            "id": "4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "10.0"
+              }
+            },
+            "vector-content": "4_3.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "name": "Step=1, Steps=4",
+      "design": "Step=1",
+      "size": {
+        "width": 64.0,
+        "height": 10.0
+      }
+    },
+    {
+      "name": "Step=Step8, Steps=3",
+      "design": "Step=Step8",
+      "size": {
+        "width": 46.0,
+        "height": 10.0
+      }
+    },
+    {
+      "name": "Step=2, Steps=4",
+      "design": "Step=2",
+      "size": {
+        "width": 64.0,
+        "height": 10.0
+      }
+    },
+    {
+      "name": "Step=Step7, Steps=3",
+      "design": "Step=Step7",
+      "size": {
+        "width": 46.0,
+        "height": 10.0
+      }
+    },
+    {
+      "name": "Step=3, Steps=4",
+      "design": "Step=3",
+      "size": {
+        "width": 64.0,
+        "height": 10.0
+      }
+    },
+    {
+      "name": "Step=Step6, Steps=3",
+      "design": "Step=Step6",
+      "size": {
+        "width": 46.0,
+        "height": 10.0
+      }
+    },
+    {
+      "name": "Step=4, Steps=4",
+      "design": "Step=4",
+      "size": {
+        "width": 64.0,
+        "height": 10.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

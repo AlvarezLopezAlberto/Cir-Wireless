@@ -1,0 +1,263 @@
+{
+  "name": "checkbox",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "328:905",
+    "version": "3180979874",
+    "component-id": "2542cf6297e779ade4be8d83491fbf89fd48f7a5"
+  },
+  "default": "Property 1=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Box"
+      },
+      {
+        "type": "text",
+        "id": "Text"
+      },
+      {
+        "type": "vector",
+        "id": "box"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "Property 1=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Box",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Box",
+            "border-radius": "5.0",
+            "tap-handler": "$tapInteraction",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "box",
+              "Vector"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$textContent",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "box",
+            "border-radius": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "box.svg"
+          },
+          {
+            "id": "Vector",
+            "presence": "false",
+            "margin": {
+              "left": "7.0",
+              "top": "8.0",
+              "right": "7.0",
+              "bottom": "8.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Box",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Box",
+            "tap-handler": "$tapInteraction",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "box",
+              "Vector"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$textContent",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "box",
+            "border-radius": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "box1.svg"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": "7.0",
+              "top": "8.0",
+              "right": "7.0",
+              "bottom": "8.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "tapInteraction": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "textContent": {
+      "data-type": "text",
+      "required": false,
+      "description": "Contenido"
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Default",
+      "size": {
+        "width": 220.0,
+        "height": 20.0
+      },
+      "parameters": {
+        "textContent": "I agree to sell my privacy"
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 220.0,
+        "height": 20.0
+      },
+      "parameters": {
+        "textContent": "I agree to sell my privacy"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

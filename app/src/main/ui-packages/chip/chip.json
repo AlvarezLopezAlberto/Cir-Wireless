@@ -1,0 +1,206 @@
+{
+  "name": "chip",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "337:947",
+    "version": "3180979874",
+    "component-id": "b6958d3ea9adb84886a702864389c208954ab7e7"
+  },
+  "default": "default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Text"
+      }
+    ],
+    "modes": {
+      "default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "8.0",
+              "top": "4.0",
+              "right": "8.0",
+              "bottom": "4.0"
+            },
+            "border-radius": "10.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Text"
+            ],
+            "item-spacing": "10.0",
+            "background-color": "$backgroundColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": "$textColor",
+            "text-content": "$contentText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "backgroundColor": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    },
+    "contentText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "textColor": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "name": "Type=Neutral Gray",
+      "design": "default",
+      "size": {
+        "width": 120.0,
+        "height": 22.0
+      },
+      "parameters": {
+        "backgroundColor": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.7294117647058823"
+        },
+        "contentText": "Chip neutral gray",
+        "textColor": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.26666666666666666"
+        }
+      }
+    },
+    {
+      "name": "Type=Neutral Blue",
+      "design": "default",
+      "size": {
+        "width": 120.0,
+        "height": 22.0
+      },
+      "parameters": {
+        "backgroundColor": {
+          "alpha": "1.0",
+          "hue": "216.36363636363632",
+          "saturation": "0.17741935483870966",
+          "value": "0.7294117647058823"
+        },
+        "contentText": "Chip neutral blue",
+        "textColor": {
+          "alpha": "1.0",
+          "hue": "214.6153846153846",
+          "saturation": "0.8125",
+          "value": "0.25098039215686274"
+        }
+      }
+    },
+    {
+      "name": "Type=Error",
+      "design": "default",
+      "size": {
+        "width": 77.0,
+        "height": 22.0
+      },
+      "parameters": {
+        "backgroundColor": {
+          "alpha": "1.0",
+          "hue": "358.8461538461538",
+          "saturation": "0.20392156862745103",
+          "value": "1.0"
+        },
+        "contentText": "Chip error",
+        "textColor": {
+          "alpha": "1.0",
+          "hue": "352.6984126984127",
+          "saturation": "0.9895287958115183",
+          "value": "0.7490196078431373"
+        }
+      }
+    },
+    {
+      "name": "Type=Warning",
+      "design": "default",
+      "size": {
+        "width": 96.0,
+        "height": 22.0
+      },
+      "parameters": {
+        "backgroundColor": {
+          "alpha": "1.0",
+          "hue": "48.82352941176471",
+          "saturation": "0.4",
+          "value": "1.0"
+        },
+        "contentText": "Chip warning",
+        "textColor": {
+          "alpha": "1.0",
+          "hue": "41.7391304347826",
+          "saturation": "0.9787234042553192",
+          "value": "0.7372549019607844"
+        }
+      }
+    },
+    {
+      "name": "Type=Correct",
+      "design": "default",
+      "size": {
+        "width": 89.0,
+        "height": 22.0
+      },
+      "parameters": {
+        "backgroundColor": {
+          "alpha": "1.0",
+          "hue": "148.84615384615387",
+          "saturation": "0.20392156862745103",
+          "value": "1.0"
+        },
+        "contentText": "Chip correct",
+        "textColor": {
+          "alpha": "1.0",
+          "hue": "149.53125",
+          "saturation": "1.0",
+          "value": "0.5019607843137255"
+        }
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

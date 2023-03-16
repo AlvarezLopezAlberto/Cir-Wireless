@@ -1,0 +1,550 @@
+{
+  "name": "item_info",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "528:780",
+    "version": "3180979874",
+    "component-id": "1f859124dd7f64242858aafe44e986b0983af774"
+  },
+  "default": "default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "icon"
+      },
+      {
+        "type": "text",
+        "id": "Title"
+      },
+      {
+        "type": "text",
+        "id": "Data"
+      }
+    ],
+    "modes": {
+      "default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "icon",
+              "Title",
+              "Data"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Title",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$text-Tilte",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Data",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$text-Data",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "icon": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    },
+    "text-Tilte": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "text-Data": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "name": "Property 1=SSIR",
+      "design": "default",
+      "size": {
+        "width": 121.0,
+        "height": 76.0
+      },
+      "parameters": {
+        "icon": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "3.9990234375",
+              "top": "3.998779296875",
+              "right": "4.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "16.0",
+              "top": "7.0",
+              "right": "8.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "12.0",
+              "top": "11.0",
+              "right": "12.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "8.0",
+              "top": "15.0",
+              "right": "16.0",
+              "bottom": "4.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          }
+        ],
+        "text-Tilte": "Signal strength",
+        "text-Data": "Excelent"
+      }
+    },
+    {
+      "name": "Property 1=IP",
+      "design": "default",
+      "size": {
+        "width": 96.0,
+        "height": 76.0
+      },
+      "parameters": {
+        "icon": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "4.009765625",
+              "top": "3.010009765625",
+              "right": "4.0",
+              "bottom": "2.514892578125"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "type": "group",
+            "margin": {
+              "left": "9.06982421875",
+              "top": "8.409912109375",
+              "right": "7.93017578125",
+              "bottom": "9.590087890625"
+            },
+            "is-structured": false,
+            "children": [
+              {
+                "type": "vector",
+                "margin": {
+                  "left": "3.0"
+                },
+                "size-constraints": {
+                  "width-constraints": {
+                    "sizing-mode": "proportional",
+                    "value": 1.0
+                  },
+                  "height-constraints": {
+                    "sizing-mode": "proportional",
+                    "value": 1.0
+                  }
+                },
+                "vector-content": "vector2.svg"
+              },
+              {
+                "type": "vector",
+                "margin": {
+                  "right": "7.0"
+                },
+                "size-constraints": {
+                  "width-constraints": {
+                    "sizing-mode": "proportional",
+                    "value": 1.0
+                  },
+                  "height-constraints": {
+                    "sizing-mode": "proportional",
+                    "value": 1.0
+                  }
+                }
+              }
+            ],
+            "clip-content": false
+          }
+        ],
+        "text-Tilte": "IP address",
+        "text-Data": "192.168.0.28"
+      }
+    },
+    {
+      "name": "Property 1=SSID",
+      "design": "default",
+      "size": {
+        "width": 52.0,
+        "height": 76.0
+      },
+      "parameters": {
+        "icon": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "12.0",
+              "top": "8.0",
+              "right": "11.990234375",
+              "bottom": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "11.0",
+              "top": "12.0",
+              "right": "11.0",
+              "bottom": "8.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector4.svg"
+          }
+        ],
+        "text-Tilte": "SSID",
+        "text-Data": "EDI-5G"
+      }
+    },
+    {
+      "name": "Property 1=AP",
+      "design": "default",
+      "size": {
+        "width": 100.0,
+        "height": 76.0
+      },
+      "parameters": {
+        "icon": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "3.0",
+              "top": "13.0",
+              "right": "3.0",
+              "bottom": "3.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector5.svg"
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "17.0",
+              "top": "17.0",
+              "right": "7.0",
+              "bottom": "6.989990234375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "13.0",
+              "top": "17.0",
+              "right": "11.0",
+              "bottom": "6.989990234375"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "15.0",
+              "top": "11.0",
+              "right": "9.0",
+              "bottom": "11.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "11.75",
+              "top": "7.081787109375",
+              "right": "5.75",
+              "bottom": "15.25"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector6.svg"
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "8.5",
+              "top": "3.16357421875",
+              "right": "2.5",
+              "bottom": "17.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector7.svg"
+          }
+        ],
+        "text-Tilte": "Access point",
+        "text-Data": "192.168.0.1"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,789 @@
+{
+  "name": "text_input",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "337:103",
+    "version": "3180979874",
+    "component-id": "cb20783454ea2b5cfa9368b5fd30be2dcc74de5a"
+  },
+  "default": "Elements=All",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Text"
+      },
+      {
+        "type": "group",
+        "id": "Input"
+      },
+      {
+        "type": "group",
+        "id": "Error"
+      },
+      {
+        "type": "group",
+        "id": "Title"
+      },
+      {
+        "type": "text",
+        "id": "Descripion"
+      },
+      {
+        "type": "text",
+        "id": "Text1"
+      },
+      {
+        "type": "text",
+        "id": "*"
+      },
+      {
+        "type": "text",
+        "id": "Input Text"
+      },
+      {
+        "type": "text",
+        "id": "Error1"
+      }
+    ],
+    "modes": {
+      "Elements=All": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Text",
+              "Input",
+              "Error"
+            ],
+            "item-spacing": "4.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Title",
+              "Descripion"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Input",
+            "padding": "8.0",
+            "border-radius": "10.0",
+            "tap-handler": "$tapInteraction",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "320.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Input Text"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Error",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Error1"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Text1",
+              "*"
+            ],
+            "item-spacing": "5.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Descripion",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$descriptionText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Text1",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$titleText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "*",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$isRequired",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Input Text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "text-content": "$sampleText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Error1",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$errorText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "Elements=Description": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Text",
+              "Input",
+              "Error"
+            ],
+            "item-spacing": "4.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Title",
+              "Descripion"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Input",
+            "padding": "8.0",
+            "border-radius": "10.0",
+            "tap-handler": "$tapInteraction",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "320.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Input Text"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Error",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Error1"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Text1",
+              "*"
+            ],
+            "item-spacing": "5.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Descripion",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$descriptionText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Text1",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$titleText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "*",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$isRequired",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Input Text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "text-content": "$sampleText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Error1",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$errorText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "Elements=Basic": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Text",
+              "Input",
+              "Error"
+            ],
+            "item-spacing": "4.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Title",
+              "Descripion"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Input",
+            "padding": "8.0",
+            "border-radius": "10.0",
+            "tap-handler": "$tapInteraction",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "320.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Input Text"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Error",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Error1"
+            ],
+            "item-spacing": "10.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Text1",
+              "*"
+            ],
+            "item-spacing": "5.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Descripion",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$descriptionText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Text1",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$titleText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "*",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$isRequired",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Input Text",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "text-content": "$sampleText",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Error1",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$errorText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "tapInteraction": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": "ESTE ES UN TAP"
+    },
+    "descriptionText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "titleText": {
+      "data-type": "text",
+      "required": false,
+      "description": "Titulo del campo"
+    },
+    "isRequired": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "sampleText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "errorText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Elements=All",
+      "size": {
+        "width": 320.0,
+        "height": 104.0
+      },
+      "parameters": {
+        "descriptionText": "Description",
+        "titleText": "Text",
+        "isRequired": "*",
+        "sampleText": "Input Text",
+        "errorText": "Error"
+      }
+    },
+    {
+      "design": "Elements=Description",
+      "size": {
+        "width": 320.0,
+        "height": 86.0
+      },
+      "parameters": {
+        "descriptionText": "Description",
+        "titleText": "Text",
+        "isRequired": "*",
+        "sampleText": "Input Text",
+        "errorText": "Error"
+      }
+    },
+    {
+      "design": "Elements=Basic",
+      "size": {
+        "width": 320.0,
+        "height": 64.0
+      },
+      "parameters": {
+        "descriptionText": "Description",
+        "titleText": "Text",
+        "isRequired": "*",
+        "sampleText": "Input Text",
+        "errorText": "Error"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

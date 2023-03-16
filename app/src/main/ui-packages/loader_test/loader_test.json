@@ -1,0 +1,428 @@
+{
+  "name": "loader_test",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "343:183",
+    "version": "3180979874",
+    "component-id": "845a02adddb307caaa2d49c4505a89dd1016262e"
+  },
+  "default": "Status=Testing",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "cooler-router"
+      },
+      {
+        "type": "image",
+        "id": "test-anim 1"
+      },
+      {
+        "type": "vector",
+        "id": "cooler-router1"
+      },
+      {
+        "type": "group",
+        "id": "icon"
+      },
+      {
+        "type": "group",
+        "id": "line-testing-anim-1"
+      }
+    ],
+    "modes": {
+      "Status=Testing": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "cooler-router",
+              "test-anim 1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "cooler-router",
+            "margin": {
+              "top": "5.5",
+              "bottom": "2.5"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "test-anim 1",
+            "margin": {
+              "left": "0.181640625"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "image-content": "test_anim_1.png",
+            "scale": "cover"
+          }
+        ]
+      },
+      "Status=Complete": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "cooler-router",
+              "cooler-router1",
+              "icon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "cooler-router",
+            "margin": {
+              "top": "13.0",
+              "right": "47.0",
+              "bottom": "11.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "cooler-router1",
+            "margin": {
+              "left": "47.0",
+              "top": "13.0",
+              "bottom": "11.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "icon",
+            "margin": {
+              "left": "23.0",
+              "right": "23.0"
+            },
+            "is-structured": "false",
+            "children": "$Icon",
+            "background-color": "$color-Icon",
+            "clip-content": "false"
+          }
+        ]
+      },
+      "Status=Error": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "line-testing-anim-1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "line-testing-anim-1",
+            "is-structured": "false",
+            "children": [
+              "cooler-router",
+              "cooler-router1",
+              "icon"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "cooler-router",
+            "margin": {
+              "top": "13.0",
+              "right": "47.0",
+              "bottom": "11.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "cooler-router1",
+            "margin": {
+              "left": "47.0",
+              "top": "13.0",
+              "bottom": "11.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          },
+          {
+            "id": "icon",
+            "margin": {
+              "left": "23.0",
+              "right": "23.0"
+            },
+            "is-structured": "false",
+            "children": "$Icon",
+            "background-color": "$color-Icon",
+            "clip-content": "false"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Icon": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    },
+    "color-Icon": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Status=Testing",
+      "size": {
+        "width": 70.0,
+        "height": 8.0
+      },
+      "parameters": {
+        "Icon": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "9.0",
+              "top": "10.0",
+              "right": "9.0",
+              "bottom": "10.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          }
+        ],
+        "color-Icon": {}
+      }
+    },
+    {
+      "design": "Status=Complete",
+      "size": {
+        "width": 70.0,
+        "height": 24.0
+      },
+      "parameters": {
+        "Icon": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "type": "vector",
+            "margin": {
+              "left": "9.0",
+              "top": "10.0",
+              "right": "9.0",
+              "bottom": "10.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector1.svg"
+          }
+        ],
+        "color-Icon": {}
+      }
+    },
+    {
+      "design": "Status=Error",
+      "size": {
+        "width": 70.0,
+        "height": 24.0
+      },
+      "parameters": {
+        "Icon": [
+          {
+            "type": "vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "margin": "3.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "type": "vector",
+            "margin": "9.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "type": "vector",
+            "margin": "9.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector4.svg"
+          }
+        ],
+        "color-Icon": {}
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,992 @@
+{
+  "name": "title_info",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "343:188",
+    "version": "3180979874",
+    "component-id": "e34c94a94498ca44783776bf9649343ad07b26f5"
+  },
+  "default": "Variant=Quick",
+  "documentation": "Header del home con informacion de identificacion del refrigerador",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "heading"
+      },
+      {
+        "type": "text",
+        "id": "title"
+      },
+      {
+        "type": "group",
+        "id": "info"
+      },
+      {
+        "type": "group",
+        "id": "s/n"
+      },
+      {
+        "type": "group",
+        "id": "client"
+      },
+      {
+        "type": "group",
+        "id": "model"
+      },
+      {
+        "type": "text",
+        "id": "S/N:"
+      },
+      {
+        "type": "text",
+        "id": "457140100244"
+      },
+      {
+        "type": "text",
+        "id": "Cliente:"
+      },
+      {
+        "type": "text",
+        "id": "Solkos"
+      },
+      {
+        "type": "text",
+        "id": "Model:"
+      },
+      {
+        "type": "text",
+        "id": "VR8"
+      },
+      {
+        "type": "text",
+        "id": "Informacion del dispositivo de control"
+      },
+      {
+        "type": "group",
+        "id": "quick-info"
+      },
+      {
+        "type": "group",
+        "id": "client-quick"
+      },
+      {
+        "type": "group",
+        "id": "firmware"
+      },
+      {
+        "type": "group",
+        "id": "identificador"
+      },
+      {
+        "type": "group",
+        "id": "marca"
+      },
+      {
+        "type": "group",
+        "id": "activo"
+      },
+      {
+        "type": "text",
+        "id": "Firmware:"
+      },
+      {
+        "type": "text",
+        "id": "firm-variable"
+      },
+      {
+        "type": "text",
+        "id": "Identificador:"
+      },
+      {
+        "type": "text",
+        "id": "id-variable"
+      },
+      {
+        "type": "text",
+        "id": "Marca:"
+      },
+      {
+        "type": "text",
+        "id": "marca-variable"
+      },
+      {
+        "type": "text",
+        "id": "Activo:"
+      },
+      {
+        "type": "text",
+        "id": "activo-vr8"
+      }
+    ],
+    "modes": {
+      "Variant=Quick": {
+        "rules": [
+          {
+            "id": "top_level",
+            "main-axis-align": "space-between",
+            "cross-axis-align": "start",
+            "children": [
+              "heading"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "heading",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "title",
+              "info"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "220.0",
+              "saturation": "1.0",
+              "value": "0.17647058823529413"
+            },
+            "text-content": "$name-fridge-title",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.222222213745117",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "info",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "end",
+            "children": [
+              "s/n",
+              "client",
+              "model"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "s/n",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "S/N:",
+              "457140100244"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "client",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "Cliente:",
+              "Solkos"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "model",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "Model:",
+              "VR8"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "S/N:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$serial-number-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "457140100244",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$serial-number-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Cliente:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$client-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Solkos",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$client-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Model:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$model-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "VR8",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$model-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "Variant=Extended": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "heading",
+              "Informacion del dispositivo de control",
+              "info"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "heading",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "320.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "title",
+              "quick-info"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Informacion del dispositivo de control",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "220.0",
+              "saturation": "1.0",
+              "value": "0.17647058823529413"
+            },
+            "text-content": "Informacion del dispositivo de control",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "info",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "220.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "firmware",
+              "identificador",
+              "marca",
+              "activo"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "220.0",
+              "saturation": "1.0",
+              "value": "0.17647058823529413"
+            },
+            "text-content": "$name-fridge-title",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "18.0",
+            "line-height": "1.222222213745117",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "quick-info",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "end",
+            "children": [
+              "s/n",
+              "client-quick",
+              "model"
+            ],
+            "item-spacing": "8.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "s/n",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "S/N:",
+              "457140100244"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "client-quick",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "Cliente:",
+              "Solkos"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "model",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "cross-axis-align": "start",
+            "children": [
+              "Model:",
+              "VR8"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "S/N:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$serial-number-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "457140100244",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$serial-number-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Cliente:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$client-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Solkos",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$client-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Model:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$model-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "VR8",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$model-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "firmware",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Firmware:",
+              "firm-variable"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "identificador",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Identificador:",
+              "id-variable"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "marca",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Marca:",
+              "marca-variable"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "activo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Activo:",
+              "activo-vr8"
+            ],
+            "item-spacing": "2.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Firmware:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$firmware-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "firm-variable",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$firmware-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Identificador:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$id-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "id-variable",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$id-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Marca:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$marca-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "marca-variable",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$marca-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Activo:",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$activo-text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "activo-vr8",
+            "color": {
+              "alpha": "1.0",
+              "hue": "215.0",
+              "saturation": "0.3779527559055118",
+              "value": "0.4980392156862745"
+            },
+            "text-content": "$activo-variable",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "line-height": "1.1666666412353515",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "name-fridge-title": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "serial-number-text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "serial-number-variable": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "client-text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "client-variable": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "model-text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "model-variable": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "firmware-text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "firmware-variable": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "id-text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "id-variable": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "marca-text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "marca-variable": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "activo-text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "activo-variable": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Variant=Quick",
+      "size": {
+        "width": 320.0,
+        "height": 58.0
+      },
+      "parameters": {
+        "name-fridge-title": "Enfriador Vertical\nImbera VR8",
+        "serial-number-text": "S/N:",
+        "serial-number-variable": "457140100244",
+        "client-text": "Cliente:",
+        "client-variable": "Solkos",
+        "model-text": "Model:",
+        "model-variable": "VR8",
+        "firmware-text": "Firmware:",
+        "firmware-variable": "VR8",
+        "id-text": "Identificador:",
+        "id-variable": "457140100244",
+        "marca-text": "Marca:",
+        "marca-variable": "Solkos",
+        "activo-text": "Activo:",
+        "activo-variable": "VR8"
+      }
+    },
+    {
+      "design": "Variant=Extended",
+      "size": {
+        "width": 320.0,
+        "height": 168.0
+      },
+      "parameters": {
+        "name-fridge-title": "Enfriador Vertical\nImbera VR8",
+        "serial-number-text": "S/N:",
+        "serial-number-variable": "457140100244",
+        "client-text": "Marca:",
+        "client-variable": "Solkos",
+        "model-text": "Model:",
+        "model-variable": "VR8",
+        "firmware-text": "Firmware:",
+        "firmware-variable": "VR8",
+        "id-text": "Identificador:",
+        "id-variable": "457140100244",
+        "marca-text": "Marca:",
+        "marca-variable": "Solkos",
+        "activo-text": "Activo:",
+        "activo-variable": "VR8"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

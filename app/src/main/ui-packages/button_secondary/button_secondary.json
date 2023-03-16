@@ -1,0 +1,3601 @@
+{
+  "name": "button_secondary",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "327:136",
+    "version": "3180979874",
+    "component-id": "c99e77ec203a9b484cd9f9b46f9170b58a1f3af2"
+  },
+  "default": "State=Default, Color=Red, IconVisibility=Visible, Size=Large",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Content"
+      },
+      {
+        "type": "group",
+        "id": "icon"
+      },
+      {
+        "type": "text",
+        "id": "Text"
+      }
+    ],
+    "modes": {
+      "State=Default, Color=Red, IconVisibility=Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Default, Color=Red, IconVisibility=No Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Default, Color=Red, IconVisibility=No Visible, Size=Small": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Default, Color=Blue, IconVisibility=No Visible, Size=Small": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Pressed, Color=Red, IconVisibility=No Visible, Size=Small": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Pressed, Color=Blue, IconVisibility=No Visible, Size=Small": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Disable, Color=Red, IconVisibility=No Visible, Size=Small": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "358.8461538461538",
+              "saturation": "0.20392156862745103",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "358.8461538461538",
+              "saturation": "0.20392156862745103",
+              "value": "1.0"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Disable, Color=Blue, IconVisibility=No Visible, Size=Small": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Pressed, Color=Red, IconVisibility=No Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Disable, Color=Red, IconVisibility=No Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "358.8461538461538",
+              "saturation": "0.20392156862745103",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "358.8461538461538",
+              "saturation": "0.20392156862745103",
+              "value": "1.0"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Default, Color=Blue, IconVisibility=Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Default, Color=Blue, IconVisibility=No Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Pressed, Color=Blue, IconVisibility=No Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Disable, Color=Blue, IconVisibility=No Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "presence": "false",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Pressed, Color=Blue, IconVisibility=Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "214.6153846153846",
+              "saturation": "0.8125",
+              "value": "0.25098039215686274"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Disable, Color=Blue, IconVisibility=Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "216.36363636363632",
+              "saturation": "0.17741935483870966",
+              "value": "0.7294117647058823"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Pressed, Color=Red, IconVisibility=Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "353.9086294416244",
+              "saturation": "0.7911646586345381",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "State=Disable, Color=Red, IconVisibility=Visible, Size=Large": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "8.0",
+              "right": "32.0",
+              "bottom": "8.0"
+            },
+            "border-radius": "10.0",
+            "tap-handler": "$on State=Default tapped",
+            "stroke-width": "2.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "358.8461538461538",
+              "saturation": "0.20392156862745103",
+              "value": "1.0"
+            },
+            "arrangement": "row",
+            "children": [
+              "Content"
+            ],
+            "item-spacing": "12.0",
+            "background-color": "$colorButton",
+            "clip-content": "false"
+          },
+          {
+            "id": "Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "icon",
+              "Text"
+            ],
+            "item-spacing": "16.0",
+            "background-color": "$contentColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "icon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": "$icon",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text",
+            "font-weight": "700.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "358.8461538461538",
+              "saturation": "0.20392156862745103",
+              "value": "1.0"
+            },
+            "text-content": "$text-content",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.125",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "colorButton": {
+      "data-type": "color",
+      "required": false,
+      "description": "Color del boton"
+    },
+    "on State=Default tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "contentColor": {
+      "data-type": "color",
+      "required": false,
+      "description": "Color del contenido del boton"
+    },
+    "icon": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    },
+    "text-content": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "State=Default, Color=Red, IconVisibility=Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagup.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagdown.svg"
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Default, Color=Red, IconVisibility=No Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Default, Color=Red, IconVisibility=No Visible, Size=Small",
+      "size": {
+        "width": 120.0,
+        "height": 40.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Default, Color=Blue, IconVisibility=No Visible, Size=Small",
+      "size": {
+        "width": 120.0,
+        "height": 40.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Pressed, Color=Red, IconVisibility=No Visible, Size=Small",
+      "size": {
+        "width": 120.0,
+        "height": 40.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "358.8461538461538",
+          "saturation": "0.20392156862745103",
+          "value": "1.0"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Pressed, Color=Blue, IconVisibility=No Visible, Size=Small",
+      "size": {
+        "width": 120.0,
+        "height": 40.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "220.00000000000006",
+          "saturation": "0.037656903765690364",
+          "value": "0.9372549019607843"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Disable, Color=Red, IconVisibility=No Visible, Size=Small",
+      "size": {
+        "width": 120.0,
+        "height": 40.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Disable, Color=Blue, IconVisibility=No Visible, Size=Small",
+      "size": {
+        "width": 120.0,
+        "height": 40.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Pressed, Color=Red, IconVisibility=No Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "358.8461538461538",
+          "saturation": "0.20392156862745103",
+          "value": "1.0"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Disable, Color=Red, IconVisibility=No Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Default, Color=Blue, IconVisibility=Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagup1.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagdown1.svg"
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Default, Color=Blue, IconVisibility=No Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Pressed, Color=Blue, IconVisibility=No Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "220.00000000000006",
+          "saturation": "0.037656903765690364",
+          "value": "0.9372549019607843"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Disable, Color=Blue, IconVisibility=No Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            }
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Pressed, Color=Blue, IconVisibility=Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "220.00000000000006",
+          "saturation": "0.037656903765690364",
+          "value": "0.9372549019607843"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagup2.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagdown2.svg"
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Disable, Color=Blue, IconVisibility=Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagup3.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagdown3.svg"
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Pressed, Color=Red, IconVisibility=Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "358.8461538461538",
+          "saturation": "0.20392156862745103",
+          "value": "1.0"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagup4.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagdown4.svg"
+          }
+        ],
+        "text-content": "Button"
+      }
+    },
+    {
+      "design": "State=Disable, Color=Red, IconVisibility=Visible, Size=Large",
+      "size": {
+        "width": 320.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "colorButton": {
+          "alpha": "1.0",
+          "hue": "0.0",
+          "saturation": "0.0",
+          "value": "0.9921568627450981"
+        },
+        "contentColor": {},
+        "icon": [
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 0.0
+              }
+            }
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagup5.svg"
+          },
+          {
+            "type": "vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 4.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -3.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 6.0
+              }
+            },
+            "vector-content": "diagdown5.svg"
+          }
+        ],
+        "text-content": "Button"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,193 @@
+{
+  "name": "close_button",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "78u9oJnNbtqNJczlEVJbUZ",
+    "node": "327:346",
+    "version": "3180979874",
+    "component-id": "9bb28086bdfdf82f62819a7151f40aeb4b597dc7"
+  },
+  "default": "State=Default",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "background"
+      }
+    ],
+    "modes": {
+      "State=Default": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$tapInteraction",
+            "is-structured": "false",
+            "children": [
+              "Vector2",
+              "Vector1",
+              "background"
+            ],
+            "background-color": "$backgroundColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector2",
+            "margin": "6.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector1",
+            "margin": "6.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "background",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            }
+          }
+        ]
+      },
+      "State=Pressed": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "5.0",
+            "tap-handler": "$tapInteraction",
+            "is-structured": "false",
+            "children": [
+              "background",
+              "Vector2",
+              "Vector1"
+            ],
+            "background-color": "$backgroundColor",
+            "clip-content": "false"
+          },
+          {
+            "id": "background",
+            "border-radius": "5.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "background.svg"
+          },
+          {
+            "id": "Vector2",
+            "margin": "6.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "Vector1",
+            "margin": "6.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector4.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "backgroundColor": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    },
+    "tapInteraction": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "State=Default",
+      "size": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "parameters": {
+        "backgroundColor": {}
+      }
+    },
+    {
+      "design": "State=Pressed",
+      "size": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "parameters": {
+        "backgroundColor": {}
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
